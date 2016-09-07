@@ -11,7 +11,8 @@ int main(int argc, char **argv)
 {
     printf("I am an executable file\n");    
     printf("I have updated the executable again and again\n");
-    printf("and again");
-    printf("and again");
+    printf("and again\n");
+    printf("and again\n");
 
+    return 0;
 }

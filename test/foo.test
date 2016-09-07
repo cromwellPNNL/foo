@@ -1,0 +1,12 @@
+#!/bin/csh
+
+#Location to test file
+./test.sh
+
+if ($status != 0) then
+    echo "***** FAILED TEST *****"
+    exit(1)
+endif
+
+echo "***** PASSED TEST *****"
+exit(0)
